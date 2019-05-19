@@ -14,3 +14,56 @@
  *= require_self
  */
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Space+Mono&display=swap');
+
+body {
+  font-family: "Space Mono", monospace;
+  background-color: white;
+  color: #4a4a4a;
+  margin: 0;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 2.2em;
+}
+
+h2
+h3 {
+  font-weight: 400;
+}
+
+h4,
+h5,
+h6 {
+  font-weight: 300;
+}
+
+p {
+  font-size: 1.2em;
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+  color: #4a4a4a;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #4a4a4a;;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #3273dc;
+}
+
+a:focus {
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  text-decoration: none;
+}
