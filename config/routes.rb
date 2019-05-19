@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
 
-  resources :links
+  resources :links, except: :new, path: ''
 
-  root 'links#index'
 end
